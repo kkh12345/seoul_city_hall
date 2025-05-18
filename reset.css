@@ -1,0 +1,42 @@
+:root {
+  --point-lightblue: #2292e9;
+  --point-blue: #1e6cb3;
+  --color-222: #222;
+  --culture: #9b64d3;
+  --welfare: #d76000;
+  --traffic: #337ee2;
+  --environment: #599100;
+  --economy: #069363;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'NanumGothic';
+  letter-spacing: -0.5px;
+}
+
+*:focus {
+  outline-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
